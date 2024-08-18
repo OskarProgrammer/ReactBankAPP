@@ -1,0 +1,44 @@
+.newTransferDiv {
+    display:flex;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.newTransferDiv > div {
+    margin:0;
+    text-align: center;
+    width: 50%;
+    background-color: #6D5D6E;
+    padding:30px;
+    border-radius: 50px;
+}
+
+input {
+    padding: 30px;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 20px;
+    border: 0px;
+}
+
+.sentTransferButton{
+    padding:30px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    color: #6D5D6E;
+}
+
+.sentTransferButton:hover {
+    background-color: green;
+    color: black;
+}
+
+.newTransferDiv > div > h1 {
+    color: antiquewhite;
+}

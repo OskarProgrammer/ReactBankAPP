@@ -1,0 +1,26 @@
+
+.searchBar {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    text-align: left;
+}
+
+.searchBar > input {
+    font-size: 25px;
+    border-radius: 50px;
+    width: 98%;
+    padding:10px;
+    border: 0px;
+    margin: 10px;
+}
+
+.accounts {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    justify-content: left;
+    margin-top: 20px;
+}

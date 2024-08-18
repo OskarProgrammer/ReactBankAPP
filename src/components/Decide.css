@@ -1,0 +1,45 @@
+.decisionContainer {
+    position: relative;
+    top: 200px;
+    margin: auto;
+    width: 50%;
+    background-color: #6D5D6E;
+    border-radius: 50px;
+    padding: 25px;
+    text-align: center;
+    color: #F4EEE0;
+}
+
+.decisionContainer > h2 {
+    font-size: 50px;
+}
+
+.decisionContainer > p {
+    font-size: 25px;
+    padding:0px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.buttonsContainer > button {
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: 0px;
+    transition: 0.5s ease;
+    background-color: #393646;
+    color: #F4EEE0;
+}
+
+.adminPanel:hover {
+    background-color: red;
+}
+
+.customerPanel:hover {
+    background-color: green;
+}
+

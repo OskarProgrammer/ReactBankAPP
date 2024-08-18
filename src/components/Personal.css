@@ -1,0 +1,54 @@
+.personalData {
+    background-color: #393646;;
+    padding: 25px;
+    margin: 100px;
+    border-radius: 50px;
+    font-size: 40px;
+    width: 25%;
+    text-align: center;
+    color: #F4EEE0;
+}
+
+.image {
+    margin: auto;
+    padding: 45px;
+    border-radius: 200px;
+    background-color: #6D5D6E;
+    font-size: 25px;
+    width: 125px;
+    height: 125px;
+    margin-bottom: 50px;
+}
+
+.usernameContainer {
+    color: #F4EEE0;
+}
+
+.passwordContainer {
+    margin: 10px;
+    color: #ffffff;
+}
+
+.changePasswordButton {
+    border-radius: 50px;
+    border: 0;
+    padding: 25px;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.changePasswordButton:hover {
+    background-color: #6D5D6E;
+    color: #F4EEE0;
+}
+
+.passwordContainer > input {
+    padding: 25px;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 0;
+    width: 75%;
+}

@@ -1,0 +1,61 @@
+.detailsAccount {
+    margin:auto;
+    background-color: #393646;
+    padding: 50px;
+    width: 70%;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.barWithButton {
+    display: flex;
+    justify-content: space-between;
+}
+.barWithButton > button {
+    padding: 30px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 30px;
+    transition: 0.5s ease
+}
+
+.barWithButton > button:hover {
+    background-color: #6D5D6E;
+    color: antiquewhite;
+}
+
+.barWithButton > div {
+    width: 25;
+    padding-top: 30px;
+    font-size:40px;
+    color: antiquewhite;
+}
+
+.details {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+
+}
+
+.incoming, .outcoming {
+    margin:40px;
+    width: 50%;
+    background-color: #fdfbf5;
+    padding:25px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.ogolne {
+    background-color: #6D5D6E;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 50px;
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+

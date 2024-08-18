@@ -1,0 +1,38 @@
+.accountDiv {
+    background-color: aliceblue;
+    padding:30px;
+    border-radius: 50px;
+    margin: 20px;
+    font-size: 25px;
+    text-wrap: wrap;
+    width: 25%;
+}
+
+.accountDiv:hover {
+    cursor: pointer;
+}
+
+.info {
+    height: 80%;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 0;
+}
+
+.removeButton {
+    padding: 10px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #6D5D6E;;
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+
+.removeButton:hover {
+    cursor: pointer;
+    background-color: red;
+}

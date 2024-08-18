@@ -1,0 +1,34 @@
+.navBar {
+    display: flex;
+    background-color: #6D5D6E;
+    border-radius: 50px;
+    padding: 36px;
+    font-size: 30px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.navBar > button {
+    border-radius: 50px;
+    border: 0;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #F4EEE0;
+    color: #393646;
+    transition: 0.5s ease;
+}
+
+.navBar > button:hover {
+    box-shadow: 15px 5px 15px #927b92;
+    background-color: #fdfbf5;
+}
+
+.mainContainer {
+    display: flex;
+    background-color: #6D5D6E;
+    justify-content: center;
+    margin: 40px;
+    border-radius: 50px;
+    flex-wrap: wrap;
+}

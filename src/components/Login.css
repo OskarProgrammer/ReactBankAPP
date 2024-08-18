@@ -1,0 +1,47 @@
+.loginForm {
+    position: relative;
+    top: 200px;
+    background-color: #4F4557;
+    margin: auto;
+    width: 25%;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+.loginForm > div > input {
+    padding: 25px;
+    margin: 15px;
+    width: 80%;
+    border-radius: 50px;
+    border: 0;
+    font-size: 15px;
+}
+
+.loginForm > h2 {
+    margin: 25px;
+    color: #F4EEE0;
+    font-size: 30px;
+}
+
+.errorMessage {
+    color: rgb(255, 93, 93);
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.loginButton {
+    border-radius: 50px;
+    border: 0px;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    transition: 0.5s ease-out;
+    font-weight: bold;
+}
+
+.loginButton:hover {
+    background-color: green;
+    color: #F4EEE0;
+}

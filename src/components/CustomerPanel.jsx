@@ -47,6 +47,11 @@ export const CustomerPanel = (props) => {
             return
         }
 
+        if (valueOfTransfer < 0){
+            setIsError(true)
+            return
+        }
+        
         props.onTransfer(homeAccount, destinationAccount, titleOfTransfer, valueOfTransfer)
         setDestinationAccount("")
         setHomeAccount("")
